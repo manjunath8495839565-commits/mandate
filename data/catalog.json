@@ -1,0 +1,537 @@
+[
+  {
+    "id": "item_bp_alfredo",
+    "merchant_id": "merch_bella_pasta",
+    "name": "Chicken Alfredo Fettuccine",
+    "description": "Slow-cooked creamy parmigiano reggiano alfredo with tender grilled chicken breast.",
+    "category": "catering",
+    "unit_price_cents": 1795,
+    "is_vegetarian": false,
+    "max_qty": 30,
+    "tags": ["pasta", "poultry", "popular"]
+  },
+  {
+    "id": "item_bp_primavera",
+    "merchant_id": "merch_bella_pasta",
+    "name": "Pasta Primavera",
+    "description": "Penne pasta with roasted seasonal squash, bell peppers, asparagus, and herb olive oil.",
+    "category": "catering",
+    "unit_price_cents": 1450,
+    "is_vegetarian": true,
+    "max_qty": 30,
+    "tags": ["pasta", "vegetarian", "healthy"]
+  },
+  {
+    "id": "item_bp_caesar",
+    "merchant_id": "merch_bella_pasta",
+    "name": "Classic Caesar Salad",
+    "description": "Crisp romaine hearts, shaved parmigiano, garlic croutons, house caesar dressing.",
+    "category": "catering",
+    "unit_price_cents": 1208,
+    "is_vegetarian": false,
+    "max_qty": 25,
+    "tags": ["salad", "side"]
+  },
+  {
+    "id": "item_bp_tiramisu",
+    "merchant_id": "merch_bella_pasta",
+    "name": "Artisan Tiramisu Tray",
+    "description": "Traditional mascarpone cream, espresso-soaked ladyfingers, and Valrhona cocoa powder.",
+    "category": "catering",
+    "unit_price_cents": 4500,
+    "is_vegetarian": true,
+    "max_qty": 10,
+    "tags": ["dessert", "tray"]
+  },
+  {
+    "id": "item_bp_garlic_bread",
+    "merchant_id": "merch_bella_pasta",
+    "name": "Garlic Bread Platter",
+    "description": "Toasted ciabatta infused with roasted garlic confit butter and fresh parsley.",
+    "category": "catering",
+    "unit_price_cents": 1200,
+    "is_vegetarian": true,
+    "max_qty": 15,
+    "tags": ["bread", "side", "vegetarian"]
+  },
+  {
+    "id": "item_bp_risotto",
+    "merchant_id": "merch_bella_pasta",
+    "name": "Wild Porcini Risotto",
+    "description": "Creamy carnaroli rice simmered with wild Italian porcini mushrooms and truffle butter.",
+    "category": "catering",
+    "unit_price_cents": 2100,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["risotto", "vegetarian"]
+  },
+
+  {
+    "id": "item_sh_biryani",
+    "merchant_id": "merch_saffron_house",
+    "name": "Royal Vegetable Biryani Tray",
+    "description": "Aromatic long-grain basmati rice with fragrant saffron, seasonal veggies, and spices.",
+    "category": "catering",
+    "unit_price_cents": 1250,
+    "is_vegetarian": true,
+    "max_qty": 25,
+    "tags": ["rice", "vegetarian", "spicy"]
+  },
+  {
+    "id": "item_sh_paneer",
+    "merchant_id": "merch_saffron_house",
+    "name": "Paneer Tikka Platter",
+    "description": "Tandoor-charred cottage cheese cubes marinated in yogurt and fenugreek.",
+    "category": "catering",
+    "unit_price_cents": 2200,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["tandoor", "vegetarian"]
+  },
+  {
+    "id": "item_sh_dal",
+    "merchant_id": "merch_saffron_house",
+    "name": "Slow-Simmered Dal Makhani",
+    "description": "Black lentils slow-cooked overnight with churned butter and fresh cream.",
+    "category": "catering",
+    "unit_price_cents": 1100,
+    "is_vegetarian": true,
+    "max_qty": 25,
+    "tags": ["curry", "vegetarian"]
+  },
+  {
+    "id": "item_sh_naan",
+    "merchant_id": "merch_saffron_house",
+    "name": "Butter Naan Basket",
+    "description": "Freshly baked clay oven flatbreads glazed with melted butter.",
+    "category": "catering",
+    "unit_price_cents": 700,
+    "is_vegetarian": true,
+    "max_qty": 30,
+    "tags": ["bread", "vegetarian"]
+  },
+  {
+    "id": "item_sh_gulab",
+    "merchant_id": "merch_saffron_house",
+    "name": "Gulab Jamun Warm Tray",
+    "description": "Milk dumplings steeped in warm cardamom, rosewater, and saffron syrup.",
+    "category": "catering",
+    "unit_price_cents": 1500,
+    "is_vegetarian": true,
+    "max_qty": 15,
+    "tags": ["dessert", "vegetarian"]
+  },
+  {
+    "id": "item_sh_samosa",
+    "merchant_id": "merch_saffron_house",
+    "name": "Crisp Veg Samosa Platter",
+    "description": "Golden pastry filled with spiced potatoes, green peas, served with mint chutney.",
+    "category": "catering",
+    "unit_price_cents": 1400,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["appetizer", "vegetarian"]
+  },
+
+  {
+    "id": "item_gf_buddha",
+    "merchant_id": "merch_green_fork",
+    "name": "Signature Organic Buddha Bowl",
+    "description": "Organic tri-color quinoa, avocado, steamed kale, turmeric chickpeas, and tahini drizzle.",
+    "category": "catering",
+    "unit_price_cents": 1150,
+    "is_vegetarian": true,
+    "max_qty": 30,
+    "tags": ["bowl", "organic", "vegetarian", "vegan"]
+  },
+  {
+    "id": "item_gf_falafel_wrap",
+    "merchant_id": "merch_green_fork",
+    "name": "Crisp Falafel Wrap Platter",
+    "description": "House-made herb falafel, pickled turnips, shredded greens, garlic tahini in lavash.",
+    "category": "catering",
+    "unit_price_cents": 1300,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["wrap", "vegetarian", "vegan"]
+  },
+  {
+    "id": "item_gf_hummus_trio",
+    "merchant_id": "merch_green_fork",
+    "name": "Artisan Hummus Trio with Warm Pita",
+    "description": "Classic, roasted red pepper, and cilantro jalapeno hummus served with fresh warm pita.",
+    "category": "catering",
+    "unit_price_cents": 724,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["appetizer", "dip", "vegetarian"]
+  },
+  {
+    "id": "item_gf_quinoa_tabbouleh",
+    "merchant_id": "merch_green_fork",
+    "name": "Quinoa Tabbouleh Salad",
+    "description": "Chopped parsley, heirloom tomatoes, mint, quinoa, and lemon-infused extra virgin olive oil.",
+    "category": "catering",
+    "unit_price_cents": 1200,
+    "is_vegetarian": true,
+    "max_qty": 25,
+    "tags": ["salad", "gluten-free", "vegetarian"]
+  },
+  {
+    "id": "item_gf_avocado_toast",
+    "merchant_id": "merch_green_fork",
+    "name": "Sourdough Avocado Toast Box",
+    "description": "Crushed Haas avocados, radishes, chili flakes, and hemp seeds on organic sourdough.",
+    "category": "catering",
+    "unit_price_cents": 950,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["toast", "vegetarian"]
+  },
+  {
+    "id": "item_gf_green_smoothie",
+    "merchant_id": "merch_green_fork",
+    "name": "Green Wellness Juice Jug",
+    "description": "Cold-pressed cucumber, celery, green apple, ginger, and lemon.",
+    "category": "catering",
+    "unit_price_cents": 650,
+    "is_vegetarian": true,
+    "max_qty": 25,
+    "tags": ["beverage", "healthy", "vegan"]
+  },
+
+  {
+    "id": "item_gt_thali",
+    "merchant_id": "merch_golden_tiffin",
+    "name": "South Indian Executive Thali Box",
+    "description": "Steamed basmati rice, sambar, rasam, kootu, poriyal, papadum, and dessert.",
+    "category": "catering",
+    "unit_price_cents": 1350,
+    "is_vegetarian": true,
+    "max_qty": 30,
+    "tags": ["thali", "traditional", "vegetarian"]
+  },
+  {
+    "id": "item_gt_curd_rice",
+    "merchant_id": "merch_golden_tiffin",
+    "name": "Tempered Curd Rice Bowl",
+    "description": "Soothing yogurt rice tempered with mustard seeds, curry leaves, ginger, and pomegranate.",
+    "category": "catering",
+    "unit_price_cents": 700,
+    "is_vegetarian": true,
+    "max_qty": 25,
+    "tags": ["rice", "vegetarian"]
+  },
+  {
+    "id": "item_gt_pulao",
+    "merchant_id": "merch_golden_tiffin",
+    "name": "Fragrant Veg Pulao Tray",
+    "description": "Spiced basmati rice with green peas, carrots, cumin, and fried onions.",
+    "category": "catering",
+    "unit_price_cents": 1400,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["rice", "vegetarian"]
+  },
+  {
+    "id": "item_gt_medu_vada",
+    "merchant_id": "merch_golden_tiffin",
+    "name": "Crispy Medu Vada Platter",
+    "description": "Savory lentil donuts served with coconut chutney and tomato relish.",
+    "category": "catering",
+    "unit_price_cents": 1100,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["snack", "vegetarian"]
+  },
+  {
+    "id": "item_gt_payasam",
+    "merchant_id": "merch_golden_tiffin",
+    "name": "Elachi Semiaya Payasam",
+    "description": "Warm vermicelli pudding flavored with cardamom, roasted cashews, and golden raisins.",
+    "category": "catering",
+    "unit_price_cents": 850,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["dessert", "vegetarian"]
+  },
+  {
+    "id": "item_gt_filter_coffee",
+    "merchant_id": "merch_golden_tiffin",
+    "name": "Madras Filter Coffee Carafe",
+    "description": "Brewed dark roast chicory blend with whole milk and jaggery foam.",
+    "category": "catering",
+    "unit_price_cents": 900,
+    "is_vegetarian": true,
+    "max_qty": 15,
+    "tags": ["beverage", "vegetarian"]
+  },
+
+  {
+    "id": "item_nt_smorgasbord",
+    "merchant_id": "merch_nordic_table",
+    "name": "Nordic Smorgasbord Platter",
+    "description": "Pickled herring, smoked cheeses, lingonberry preserve, cured meats, and crispbreads.",
+    "category": "catering",
+    "unit_price_cents": 3200,
+    "is_vegetarian": false,
+    "max_qty": 15,
+    "tags": ["seafood", "platter"]
+  },
+  {
+    "id": "item_nt_gravlax",
+    "merchant_id": "merch_nordic_table",
+    "name": "Dill Cured Salmon Gravlax",
+    "description": "Thinly sliced wild salmon cured in dill, salt, and peppercorns with mustard sauce.",
+    "category": "catering",
+    "unit_price_cents": 2800,
+    "is_vegetarian": false,
+    "max_qty": 15,
+    "tags": ["salmon", "seafood"]
+  },
+  {
+    "id": "item_nt_rye_tray",
+    "merchant_id": "merch_nordic_table",
+    "name": "Danish Open-Faced Rye Sandwiches",
+    "description": "Selection of smørrebrød on dark dense rye with egg, roast beef, and remoulade.",
+    "category": "catering",
+    "unit_price_cents": 2400,
+    "is_vegetarian": false,
+    "max_qty": 20,
+    "tags": ["sandwiches"]
+  },
+  {
+    "id": "item_nt_beetroot_salad",
+    "merchant_id": "merch_nordic_table",
+    "name": "Roasted Beetroot & Goat Cheese",
+    "description": "Swedish pickled and roasted golden beets, whipped goat cheese, and toasted walnuts.",
+    "category": "catering",
+    "unit_price_cents": 1600,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["salad", "vegetarian"]
+  },
+  {
+    "id": "item_nt_cardamom_buns",
+    "merchant_id": "merch_nordic_table",
+    "name": "Swedish Cardamom Buns Basket",
+    "description": "Freshly twisted yeasted dough flavored with freshly ground green cardamom and pearl sugar.",
+    "category": "catering",
+    "unit_price_cents": 1800,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["bakery", "vegetarian"]
+  },
+  {
+    "id": "item_nt_lingonberry_cider",
+    "merchant_id": "merch_nordic_table",
+    "name": "Sparkling Wild Lingonberry Cider",
+    "description": "Tart and refreshing Scandinavian wild lingonberry cold-sparkled juice.",
+    "category": "catering",
+    "unit_price_cents": 1100,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["beverage", "vegetarian"]
+  },
+
+  {
+    "id": "item_tl_veg_taco",
+    "merchant_id": "merch_taco_libre",
+    "name": "Roasted Poblano & Corn Veg Taco Tray",
+    "description": "Charred sweet corn, roasted poblano strips, black beans, cotija cheese in warm corn tortillas.",
+    "category": "catering",
+    "unit_price_cents": 1100,
+    "is_vegetarian": true,
+    "max_qty": 30,
+    "tags": ["tacos", "vegetarian", "mexican"]
+  },
+  {
+    "id": "item_tl_carnitas",
+    "merchant_id": "merch_taco_libre",
+    "name": "Michoacan Pork Carnitas Tray",
+    "description": "Citrus and herb braised pork shoulder crisped in its own juices with cilantro and onions.",
+    "category": "catering",
+    "unit_price_cents": 1600,
+    "is_vegetarian": false,
+    "max_qty": 25,
+    "tags": ["tacos", "pork"]
+  },
+  {
+    "id": "item_tl_guacamole",
+    "merchant_id": "merch_taco_libre",
+    "name": "Molcajete Guacamole & Totopos",
+    "description": "Hand-mashed Hass avocados with lime, serrano chilis, cilantro, and warm tortilla chips.",
+    "category": "catering",
+    "unit_price_cents": 800,
+    "is_vegetarian": true,
+    "max_qty": 30,
+    "tags": ["appetizer", "dip", "vegetarian"]
+  },
+  {
+    "id": "item_tl_churros",
+    "merchant_id": "merch_taco_libre",
+    "name": "Cinnamon Sugar Churro Bites",
+    "description": "Crisp fried pastry tossed in cinnamon sugar with dark chocolate dipping sauce.",
+    "category": "catering",
+    "unit_price_cents": 1200,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["dessert", "vegetarian"]
+  },
+  {
+    "id": "item_tl_queso_fundido",
+    "merchant_id": "merch_taco_libre",
+    "name": "Oaxaca Queso Fundido Tray",
+    "description": "Melted Oaxaca and jack cheeses served bubbling with warm flour tortillas.",
+    "category": "catering",
+    "unit_price_cents": 1350,
+    "is_vegetarian": true,
+    "max_qty": 15,
+    "tags": ["appetizer", "cheese", "vegetarian"]
+  },
+  {
+    "id": "item_tl_horchata",
+    "merchant_id": "merch_taco_libre",
+    "name": "Cinnamon Rice Milk Horchata Jug",
+    "description": "House-steeped sweet rice milk, Ceylon cinnamon, and vanilla bean.",
+    "category": "catering",
+    "unit_price_cents": 750,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["beverage", "vegetarian"]
+  },
+
+  {
+    "id": "item_pc_caviar",
+    "merchant_id": "merch_premium_caviar",
+    "name": "Imperial Osetra Caviar Service (50g)",
+    "description": "Grand reserve Caspian Osetra caviar served with warm blinis, creme fraiche, and chives.",
+    "category": "catering",
+    "unit_price_cents": 28000,
+    "is_vegetarian": false,
+    "max_qty": 10,
+    "tags": ["luxury", "caviar"]
+  },
+  {
+    "id": "item_pc_truffle_risotto",
+    "merchant_id": "merch_premium_caviar",
+    "name": "Black Truffle Acquerello Risotto",
+    "description": "Aged Acquerello rice with shaved Norcia black truffles and 36-month Parmigiano.",
+    "category": "catering",
+    "unit_price_cents": 6500,
+    "is_vegetarian": true,
+    "max_qty": 10,
+    "tags": ["truffle", "vegetarian", "luxury"]
+  },
+  {
+    "id": "item_pc_wagyu",
+    "merchant_id": "merch_premium_caviar",
+    "name": "A5 Miyazaki Wagyu Sliders Platter",
+    "description": "Japanese A5 Wagyu beef patties on brioche with truffle aioli and caramelized shallots.",
+    "category": "catering",
+    "unit_price_cents": 7200,
+    "is_vegetarian": false,
+    "max_qty": 10,
+    "tags": ["wagyu", "luxury"]
+  },
+  {
+    "id": "item_pc_champagne_flutes",
+    "merchant_id": "merch_premium_caviar",
+    "name": "Sparkling Golden Elderflower Beverage",
+    "description": "Non-alcoholic French sparkling elderflower with 24-karat edible gold leaf.",
+    "category": "catering",
+    "unit_price_cents": 3500,
+    "is_vegetarian": true,
+    "max_qty": 15,
+    "tags": ["luxury", "beverage", "vegetarian"]
+  },
+  {
+    "id": "item_pc_lobster_bites",
+    "merchant_id": "merch_premium_caviar",
+    "name": "Butter Poached Maine Lobster Canapes",
+    "description": "Maine lobster tail poached in clarified butter on toasted brioche rounds.",
+    "category": "catering",
+    "unit_price_cents": 8500,
+    "is_vegetarian": false,
+    "max_qty": 12,
+    "tags": ["seafood", "luxury"]
+  },
+  {
+    "id": "item_pc_gold_macarons",
+    "merchant_id": "merch_premium_caviar",
+    "name": "Artisan Parisian Macaron Tower",
+    "description": "Assorted gold-dusted pistachio, dark chocolate, and salted caramel macarons.",
+    "category": "catering",
+    "unit_price_cents": 4800,
+    "is_vegetarian": true,
+    "max_qty": 10,
+    "tags": ["dessert", "luxury", "vegetarian"]
+  },
+
+  {
+    "id": "item_od_sandwich",
+    "merchant_id": "merch_office_depot_deli",
+    "name": "Executive Deli Sandwich Platter",
+    "description": "Assorted roasted turkey, smoked ham, and roast beef on artisan baguettes.",
+    "category": "catering",
+    "unit_price_cents": 2400,
+    "is_vegetarian": false,
+    "max_qty": 20,
+    "tags": ["sandwiches", "lunch"]
+  },
+  {
+    "id": "item_od_fruit",
+    "merchant_id": "merch_office_depot_deli",
+    "name": "Seasonal Fresh Fruit Bowl",
+    "description": "Hand-cut cantaloupe, honeydew, pineapple, fresh berries, and seedless grapes.",
+    "category": "catering",
+    "unit_price_cents": 1800,
+    "is_vegetarian": true,
+    "max_qty": 15,
+    "tags": ["fruit", "vegetarian", "healthy"]
+  },
+  {
+    "id": "item_od_water",
+    "merchant_id": "merch_office_depot_deli",
+    "name": "San Pellegrino Sparkling Water (Case of 12)",
+    "description": "Imported sparkling natural mineral water glass bottles.",
+    "category": "catering",
+    "unit_price_cents": 1600,
+    "is_vegetarian": true,
+    "max_qty": 25,
+    "tags": ["beverage", "water", "vegetarian"]
+  },
+  {
+    "id": "item_od_cookie_tray",
+    "merchant_id": "merch_office_depot_deli",
+    "name": "Fresh Baked Bakery Cookie Tray",
+    "description": "Warm chocolate chunk, oatmeal raisin, and white chocolate macadamia cookies.",
+    "category": "catering",
+    "unit_price_cents": 1400,
+    "is_vegetarian": true,
+    "max_qty": 20,
+    "tags": ["dessert", "bakery", "vegetarian"]
+  },
+  {
+    "id": "item_od_kettle_chips",
+    "merchant_id": "merch_office_depot_deli",
+    "name": "Artisan Kettle Potato Chips Assortment",
+    "description": "Sea salt, jalapeño, and vinegar kettle-cooked gourmet chips.",
+    "category": "catering",
+    "unit_price_cents": 900,
+    "is_vegetarian": true,
+    "max_qty": 25,
+    "tags": ["snacks", "side", "vegetarian"]
+  },
+  {
+    "id": "item_od_iced_tea",
+    "merchant_id": "merch_office_depot_deli",
+    "name": "Brewed Black Iced Tea Dispenser",
+    "description": "Freshly brewed iced black tea with sliced lemons and pure cane sugar syrup.",
+    "category": "catering",
+    "unit_price_cents": 1200,
+    "is_vegetarian": true,
+    "max_qty": 15,
+    "tags": ["beverage", "tea", "vegetarian"]
+  }
+]

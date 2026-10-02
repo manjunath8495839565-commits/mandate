@@ -1,0 +1,90 @@
+[
+  {
+    "id": "merch_bella_pasta",
+    "name": "Bella Pasta Catering",
+    "category": "catering",
+    "blurb": "Authentic hearty Italian pastas and catering trays handcrafted daily.",
+    "previously_used": true,
+    "delivery_fee_cents": 2500,
+    "tax_rate_bps": 875,
+    "rating": 4.8,
+    "eta_minutes": 45
+  },
+  {
+    "id": "merch_saffron_house",
+    "name": "Saffron House Catering",
+    "category": "catering",
+    "blurb": "Fragrant spiced royal Indian biryanis, curries, and tandoori platters.",
+    "previously_used": true,
+    "delivery_fee_cents": 3000,
+    "tax_rate_bps": 900,
+    "rating": 4.9,
+    "eta_minutes": 50
+  },
+  {
+    "id": "merch_green_fork",
+    "name": "Green Fork Organics",
+    "category": "catering",
+    "blurb": "Wholesome organic bowls, wraps, and plant-forward catering spreads.",
+    "previously_used": true,
+    "delivery_fee_cents": 1995,
+    "tax_rate_bps": 825,
+    "rating": 4.7,
+    "eta_minutes": 35
+  },
+  {
+    "id": "merch_golden_tiffin",
+    "name": "Golden Tiffin South Indian",
+    "category": "catering",
+    "blurb": "Traditional South Indian thali boxes, dosas, and vegetarian delicacies.",
+    "previously_used": true,
+    "delivery_fee_cents": 2200,
+    "tax_rate_bps": 850,
+    "rating": 4.6,
+    "eta_minutes": 40
+  },
+  {
+    "id": "merch_nordic_table",
+    "name": "Nordic Table",
+    "category": "catering",
+    "blurb": "Artisanal Scandinavian smorgasbord, cured gravlax, and open rye sandwiches.",
+    "previously_used": false,
+    "delivery_fee_cents": 3500,
+    "tax_rate_bps": 950,
+    "rating": 4.9,
+    "eta_minutes": 60
+  },
+  {
+    "id": "merch_taco_libre",
+    "name": "Taco Libre Cantina",
+    "category": "catering",
+    "blurb": "Street tacos, slow-braised carnitas, and fresh guacamole taco bars.",
+    "previously_used": true,
+    "delivery_fee_cents": 1500,
+    "tax_rate_bps": 800,
+    "rating": 4.5,
+    "eta_minutes": 30
+  },
+  {
+    "id": "merch_premium_caviar",
+    "name": "Imperial Caviar & Fine Foods",
+    "category": "catering",
+    "blurb": "Luxury reserve caviar service, black truffles, and prestige corporate catering.",
+    "previously_used": false,
+    "delivery_fee_cents": 5000,
+    "tax_rate_bps": 1000,
+    "rating": 4.9,
+    "eta_minutes": 90
+  },
+  {
+    "id": "merch_office_depot_deli",
+    "name": "Metro Express Deli",
+    "category": "catering",
+    "blurb": "Dependable executive lunch platters, artisan deli sandwiches, and refreshments.",
+    "previously_used": true,
+    "delivery_fee_cents": 1000,
+    "tax_rate_bps": 700,
+    "rating": 4.4,
+    "eta_minutes": 25
+  }
+]

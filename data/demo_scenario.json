@@ -1,0 +1,52 @@
+{
+  "_comment_arithmetic": "Blocked: (10 * 1795) + (2 * 1450) + 4500 + 1200 + (2 * 1208) = 17950 + 2900 + 4500 + 1200 + 2416 = 28966. Delivery = 2500. Tax = floor(28966 * 875 / 10000) = 2534. Total = 28966 + 2500 + 2534 = 34000. Compliant: (12 * 1150) + (2 * 724) = 13800 + 1448 = 15248. Delivery = 1995. Tax = floor(15248 * 825 / 10000) = 1257. Total = 15248 + 1995 + 1257 = 18500.",
+  "task": "Order catering lunch for 12 team members with at least 2 vegetarian options.",
+  "today_spent_cents": 0,
+  "policy": {
+    "mandate_id": "mandate_demo_lunch_001",
+    "max_total_cents": 25000,
+    "approval_threshold_cents": 15000,
+    "daily_velocity_limit_cents": 50000,
+    "allowed_categories": ["catering"],
+    "allowed_merchant_ids": [],
+    "require_previously_used": true,
+    "notes": "Company lunch policy: max $250.00 hard cap, orders over $150.00 require human approval."
+  },
+  "blocked_attempt": {
+    "merchant_id": "merch_bella_pasta",
+    "currency": "USD",
+    "lines": [
+      { "item_id": "item_bp_alfredo", "qty": 10 },
+      { "item_id": "item_bp_primavera", "qty": 2 },
+      { "item_id": "item_bp_tiramisu", "qty": 1 },
+      { "item_id": "item_bp_garlic_bread", "qty": 1 },
+      { "item_id": "item_bp_caesar", "qty": 2 }
+    ],
+    "agent_declared_total_cents": 34000,
+    "agent_rationale": "High-end Italian feast for 12 team members including desserts and garlic bread.",
+    "constraint_tags": ["catering", "vegetarian"],
+    "required_vegetarian_count": 2
+  },
+  "blocked_expected": {
+    "total_cents": 34000,
+    "decision": "BLOCK",
+    "failed": ["CAP_EXCEEDED"]
+  },
+  "compliant_attempt": {
+    "merchant_id": "merch_green_fork",
+    "currency": "USD",
+    "lines": [
+      { "item_id": "item_gf_buddha", "qty": 12 },
+      { "item_id": "item_gf_hummus_trio", "qty": 2 }
+    ],
+    "agent_declared_total_cents": 18500,
+    "agent_rationale": "Healthy organic lunch bowls for 12 with artisan hummus platters, fully satisfying dietary constraints.",
+    "constraint_tags": ["catering", "vegetarian"],
+    "required_vegetarian_count": 2
+  },
+  "compliant_expected": {
+    "total_cents": 18500,
+    "decision": "NEEDS_APPROVAL",
+    "failed": ["APPROVAL_THRESHOLD"]
+  }
+}

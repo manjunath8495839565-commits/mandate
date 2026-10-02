@@ -1,0 +1,60 @@
+{
+  "name": "mandate",
+  "version": "1.0.0",
+  "description": "Programmable spending authority for AI agents",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p ${PORT:-3000}",
+    "tunnel": "tsx scripts/tunnel.ts",
+    "db:seed": "tsx scripts/seed.ts",
+    "db:reset": "rm -f ./dev.db .data/mandate.db && npm run db:seed",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "shots": "tsx scripts/make-screenshots.ts",
+    "eval": "tsx scripts/eval-tools.ts",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "verify": "npm run typecheck && npm run lint && npm test",
+    "postinstall": "node -e \"process.exit(0)\""
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.4.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "framer-motion": "^13.5.0",
+    "lucide-react": "^1.49.0",
+    "nanoid": "^5.0.7",
+    "next": "14.2.15",
+    "pg": "^8.11.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "swr": "^2.2.5",
+    "undici": "^6.19.8",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@ngrok/ngrok": "^1.7.0",
+    "@playwright/test": "^1.44.1",
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^20.11.24",
+    "@types/pg": "^8.11.10",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@vitest/coverage-v8": "^1.6.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.15",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
